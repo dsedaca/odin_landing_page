@@ -20,7 +20,7 @@ img {
     height: auto;
 }
 
-.main {
+.header, .main {
     display: flex;
     flex: 1;
     background-color: #1F2937;

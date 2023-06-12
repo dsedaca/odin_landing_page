@@ -6,7 +6,7 @@
 
 h3 {
     font-size: 24px;
-    color: #F9FAF8;
+    color: #F9FAF8;    
 }
 
 ul {
@@ -15,12 +15,26 @@ ul {
     gap: 20px;
 }
 
+h1 {
+    border: 1px solid red;
+    padding: 0;
+    margin: 0;
+    margin-right: auto;
+    max-width: 300px;
+    padding: 0;
+}
+
+button {
+    max-width: 50px;
+    height: 30px;
+}
+
 img {
     width: 300px;
     height: auto;
 }
 
-.header, .main {
+.header {
     display: flex;
     flex: 1;
     background-color: #1F2937;
@@ -35,3 +49,50 @@ img {
 .header_links {
     display: flex;
 }
+
+.main_left {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    flex-wrap: wrap;
+    height: 400px;
+    padding-top: 100px;
+    padding-left: 14%;
+    padding-right: 8%;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: flex-start;
+    max-width: 50%;
+    border: 1px solid red;   
+}
+
+.main_text {
+    border: 1px solid red;
+    flex-wrap: wrap;
+    width: 450px;
+    
+}
+
+/*
+
+
+    
+    padding-bottom: 100px;
+    
+    flex: 1;
+    
+    
+    
+    
+
+
+
+
+display: flex;
+    
+    width: 300px;
+
+justify-content: flex-start;
+    padding-right: 200px;
+    padding-top: 100px;

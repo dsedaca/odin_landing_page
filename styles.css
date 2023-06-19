@@ -43,6 +43,15 @@ img {
     height: auto;
 }
 
+footer {
+    display: flex;
+    background-color: #1F2937;
+    height: 110px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
 .header {
     display: flex;
     flex: 1;
